@@ -7,7 +7,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import compositeid.MovieGenreId;
+import com.example.cinema.compositeid.MovieGenreId;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.cinema.entity.MovieMember;
 
-import compositeid.MovieMemberId;
+import com.example.cinema.compositeid.MovieMemberId;
 
 @Repository
 public interface MovieMemberDao extends JpaRepository<MovieMember, MovieMemberId>{

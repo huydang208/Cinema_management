@@ -1,4 +1,4 @@
-package compositeid;
+package com.example.cinema.compositeid;
 
 import java.io.Serializable;
 

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.cinema.entity.AdminDetail;
 
-import compositeid.AdminDetailId;
+import com.example.cinema.compositeid.AdminDetailId;
 
 @Repository
 public interface AdminDetailDao extends JpaRepository<AdminDetail, AdminDetailId> {

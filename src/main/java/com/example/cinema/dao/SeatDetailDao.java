@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.cinema.entity.SeatDetail;
 
-import compositeid.SeatDetailId;
+import com.example.cinema.compositeid.SeatDetailId;
 
 @Repository
 public interface SeatDetailDao extends JpaRepository<SeatDetail, SeatDetailId> {

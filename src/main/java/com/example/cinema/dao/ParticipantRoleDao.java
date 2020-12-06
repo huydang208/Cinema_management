@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.cinema.entity.ParticipantRole;
 
-import compositeid.ParticipantRoleId;
+import com.example.cinema.compositeid.ParticipantRoleId;
 
 @Repository
 public interface ParticipantRoleDao extends JpaRepository<ParticipantRole, ParticipantRoleId>{

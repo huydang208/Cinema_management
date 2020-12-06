@@ -1,9 +1,9 @@
-package compositeid;
+package com.example.cinema.compositeid;
 
 import java.io.Serializable;
 
-import com.example.cinema.entity.Auditorium;
-import com.example.cinema.entity.Seat;
+import com.example.cinema.entity.Genre;
+import com.example.cinema.entity.Movie;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -14,11 +14,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @EqualsAndHashCode
-public class SeatDetailId implements Serializable {
-	/**
-	 * 
-	 */
+public class MovieGenreId implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private Seat seat;
-	private Auditorium auditorium;
+	private Movie movie;
+	private Genre genre;
 }

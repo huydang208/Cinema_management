@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.cinema.entity.MovieGenre;
 
-import compositeid.MovieGenreId;
+import com.example.cinema.compositeid.MovieGenreId;
 
 @Repository
 public interface MovieGenreDao extends JpaRepository<MovieGenre, MovieGenreId> {

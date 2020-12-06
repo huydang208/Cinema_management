@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import compositeid.SeatDetailId;
+import com.example.cinema.compositeid.SeatDetailId;
 import lombok.Getter;
 import lombok.Setter;
 
